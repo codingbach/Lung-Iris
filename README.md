@@ -20,7 +20,7 @@ This is an image of a pneumonia lungs with expert annotations (arrows) of the pn
 
 ## Demo
 
-Link: https://lung-iris.herokuapp.com/
+Link: https://lung-iris-covid-and-beyond.herokuapp.com/
 
 Note: Due to the spontaneous nature of Heroku web hosting, there could be delays and slow load time. Please reload if necessary.
 
