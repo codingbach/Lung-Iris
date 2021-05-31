@@ -1,9 +1,21 @@
+
+
+https://user-images.githubusercontent.com/85081960/120214590-e0d98c00-c25e-11eb-82ab-60e6d09d0f85.mp4
+
+
+
 # Lung-Iris
 
 <img src = "https://github.com/trangiabach/Lung-Iris/blob/main/viral-pneumonai%20(1).jpg?raw=true">
 
 <br/>
 Prediction: Pneumonia
+<br/>
+Red: region of greater interest in classifying pneumonia
+<br/>
+Blue: region of lower interest in classifying pneumonia
+<br/>
+This is an image of a pneumonia lungs with expert annotations (arrows) of the pneumonia regions. As can be seen, the AI have detected correctly the region of interest (red regions) that have been annotated by the expert.
 
 
 ## Demo
@@ -40,7 +52,7 @@ The dataset is synthesized from 3 Kaggle datasets comprising of pneumonia and no
 
 ### Model
 
-The model is a convolutional neural network comprising of four convolutinal layers each with max-pooling and two fully-connected layers. An activation map was extracted from the last convolutional layer, allowing for the network to have great localizaion ability. The model achieved 96% accuracy on training and validation set and 91% accuracy on testing set.
+The model is a convolutional neural network comprising of four convolutinal layers each with max-pooling and two fully-connected layers. An activation map was extracted from the last convolutional layer, allowing for the network to have great localization ability. The model achieved 96% accuracy on training and validation set and 91% accuracy on testing set.
 
 ### Web application
 
@@ -89,7 +101,6 @@ https://arxiv.org/pdf/1711.05225.pdf
 
 Localization using bounding box: 
 https://ml4health.github.io/2019/pdf/73_ml4h_preprint.pdf
-
 
 
 
